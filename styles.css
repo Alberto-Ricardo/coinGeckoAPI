@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+.coinGeckoLogo {
+  width: 30%;
+  margin-left: 35%;
+}
+
+.searchBar {
+  text-align: center;
+}
+
+#targetCoin {
+  text-align: center;
+  width: 18%;
+}
+
+#searchButton {
+  margin: 4px;
+}
+
+#searchButton:hover {
+  transform: scale(1.2);
+}
+
+.exchange {
+  text-decoration: none;
+  color: aqua;
+  font-size: 1.2rem;
+}
+
+.exchange:hover {
+  color: yellow;
+  border: 1px solid aquamarine;
+}
+
+
+.coins-container, .search-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+  
+.coin {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.name {
+  font-weight: bold;
+}
+
+.symbol {
+  color: #aaa;
+}
+
+.price {
+  margin-bottom: 10px;
+}
+
+.negative {
+  color: red;
+}
+
+.positive {
+  color: green;
+}
+
+.picture {
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+}
+  
+#coingecko-api-link {
+  text-decoration: none;
+  color: beige;
+}
+
+#coingecko-api-link:hover {
+  color: aquamarine;
+}
